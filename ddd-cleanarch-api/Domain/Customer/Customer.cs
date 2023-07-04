@@ -20,7 +20,7 @@ public sealed class Customer : AggregateRoot
     /// </summary>
     public Address Address { get; private set; }
 
-    public Customer(CustomerId id, string name, string lastName, string email, PhoneNumber phoneNumber, Address address, bool active)
+    public Customer(CustomerId id, string name, string lastName, string email, bool active, PhoneNumber phoneNumber, Address address)
     {
         Id = id;
         Name = name;
