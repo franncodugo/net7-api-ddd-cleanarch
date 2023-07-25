@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ddd-cleanarch-api", "ddd-cleanarch-api\ddd-cleanarch-api.csproj", "{4CB2FA87-4F59-47C3-92E4-EA121B79FD9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ddd-cleanarch-api", "Ddd-cleanarch-api\Ddd-cleanarch-api.csproj", "{4CB2FA87-4F59-47C3-92E4-EA121B79FD9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{A878B96A-2A14-4909-911E-86C5B10A066F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{A878B96A-2A14-4909-911E-86C5B10A066F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{F738AA91-EA1D-47DA-81C6-FECB64721B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{F738AA91-EA1D-47DA-81C6-FECB64721B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{BC7289AF-8862-42F0-AB9A-B0716223F860}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{BC7289AF-8862-42F0-AB9A-B0716223F860}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

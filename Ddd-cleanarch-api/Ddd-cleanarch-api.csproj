@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>ddd_cleanarch_api</RootNamespace>
+    <RootNamespace>Ddd_cleanarch_api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

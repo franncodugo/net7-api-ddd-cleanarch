@@ -1,6 +1,4 @@
-﻿
-using Domain.Customer;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Application.Data;
 
@@ -10,7 +8,7 @@ namespace Application.Data;
 /// </summary>
 public interface IApplicationDbContext
 {
-    DbSet<Customer> Customers { get; set; }
+    DbSet<Domain.Customer.Customer> Customers { get; set; }
 
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }
